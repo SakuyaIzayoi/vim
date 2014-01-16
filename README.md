@@ -1,7 +1,7 @@
-vim
+SakuyaVim
 ===
 
-SakuyaVim - A Vim setup by Alessandro Gangemi
+A Vim setup by Alessandro Gangemi
 
 Plugins:
 
