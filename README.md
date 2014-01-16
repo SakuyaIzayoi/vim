@@ -5,6 +5,7 @@ SakuyaVim - A Vim setup by Alessandro Gangemi
 
 Plugins:
 
+```
 ctrlp
 delimitMate
 nerdtree
@@ -18,3 +19,4 @@ vim-sensible
 vim-snipmate
 vim-snippets
 vim-toolbar-icons-silk
+```
