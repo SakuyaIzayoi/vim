@@ -1,0 +1,46 @@
+" PRETTYIFY VIM "
+color kolor
+syntax on
+filetype plugin indent on
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set nu
+set guifont=Consolas:h18
+set encoding=utf8
+set backupdir=~/.vim/backup
+
+" PLUGIN SETTINGS "
+let g:syntastic_c_check_header = 1
+let g:syntastic_c_no_include_search = 1
+let g:syntastic_c_no_default_include_dirs = 1
+let g:syntastic_c_auto_refresh_includes = 1
+let g:kolor_italic = 1
+let g:kolor_bold = 1
+let g:kolor_underlined = 0
+let g:kolor_alternative_matchparen = 0
+let g:NERDTreeDirArrows = 1
+let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
+let g:tagbar_usearrows = 1
+
+" KEYBINDS"
+map <C-n> :NERDTreeToggle<CR>
+function! NumberToggle()
+    if(&relativenumber == 1)
+        set norelativenumber
+    else
+        set relativenumber
+    endif
+endfunc
+nnoremap <M-n> :call NumberToggle()<CR>
+nnoremap <F8> :TagbarToggle<CR>
+
+" AUTO-RUN COMMANDS "
+if has("autocmd")
+    if has("gui_runnng")
+        autocmd bufwritepost .gvimrc source $MYGVIMRC
+    else
+        autocmd bufwritepost _vimrc source $MYVIMRC
+    endif
+endif
