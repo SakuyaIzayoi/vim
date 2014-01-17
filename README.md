@@ -5,6 +5,7 @@ A Vim setup by Alessandro Gangemi
 
 Plugins:
 
+* pathogen
 * ctrlp
 * delimitMate
 * nerdtree
