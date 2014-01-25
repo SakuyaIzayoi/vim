@@ -1,8 +1,25 @@
 set nocompatible
 set enc=utf-8
-behave mswin
 
 execute pathogen#infect()
+
+syntax on
+filetype plugin indent on
+set smartindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set nu
+set cursorline
+set lazyredraw
+
+set incsearch
+set hlsearch
+
+let mapleader=","
+inoremap jk <esc>
+nnoremap <leader><space> :nohlsearch<CR>
 
 set diffexpr=MyDiff()
 function MyDiff()
