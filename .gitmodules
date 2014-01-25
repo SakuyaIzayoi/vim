@@ -1,0 +1,45 @@
+[submodule "vimfiles/bundle/ctrlp.vim"]
+	path = vimfiles/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vimfiles/bundle/delimitMate"]
+	path = vimfiles/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/sparkup"]
+	path = vimfiles/bundle/sparkup
+	url = https://github.com/rstacruz/sparkup.git
+[submodule "vimfiles/bundle/supertab"]
+	path = vimfiles/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vimfiles/bundle/syntastic"]
+	path = vimfiles/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vimfiles/bundle/tagbar"]
+	path = vimfiles/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vimfiles/bundle/vim-snipmate"]
+	path = vimfiles/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "vimfiles/bundle/tlib_vim"]
+	path = vimfiles/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "vimfiles/bundle/vim-addon-mw-utils"]
+    path = vimfiles/bundle/vim-addon-mw-utils
+    url = https://github.com/marcweber/vim-addon-mw-utils.git
+[submodule "vimfiles/bundle/vim-easymotion"]
+	path = vimfiles/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "vimfiles/bundle/vim-fugitive"]
+	path = vimfiles/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vimfiles/bundle/vim-sensible"]
+	path = vimfiles/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "vimfiles/bundle/vim-snippets"]
+	path = vimfiles/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "vimfiles/bundle/vim-toolbar-icons-silk"]
+	path = vimfiles/bundle/vim-toolbar-icons-silk
+	url = https://github.com/istepura/vim-toolbar-icons-silk.git
