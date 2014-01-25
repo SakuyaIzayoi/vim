@@ -43,3 +43,6 @@
 [submodule "vimfiles/bundle/vim-toolbar-icons-silk"]
 	path = vimfiles/bundle/vim-toolbar-icons-silk
 	url = https://github.com/istepura/vim-toolbar-icons-silk.git
+[submodule "vimfiles/bundle/gundo.vim"]
+	path = vimfiles/bundle/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git

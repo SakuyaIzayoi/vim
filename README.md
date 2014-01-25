@@ -14,6 +14,7 @@ Plugins:
 * tagbar
 * easymotion
 * sparkup
+* gundo
 * vim-fugitive
 * vim-sensible
 * vim-snipmate

@@ -20,6 +20,7 @@ set hlsearch
 let mapleader=","
 inoremap jk <esc>
 nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>u :GundoToggle<CR>
 
 set diffexpr=MyDiff()
 function MyDiff()
