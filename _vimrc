@@ -33,11 +33,6 @@ let g:NERDTreeDirArrows = 1
 let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
 let g:tagbar_usearrows = 1
 
-let mapleader=","
-inoremap jk <esc>
-nnoremap <leader><space> :nohlsearch<CR>
-nnoremap <leader>u :GundoToggle<CR>
-
 " KEYBINDS "
 map <C-n> :NERDTreeToggle<CR>
 function! NumberToggle()
@@ -47,9 +42,17 @@ function! NumberToggle()
         set relativenumber
     endif
 endfunc
+
 nnoremap <M-n> :call NumberToggle()<CR>
 nnoremap <F8> :TagbarToggle<CR>
 
+let mapleader=","
+
+inoremap jk <esc>
+nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>u :GundoToggle<CR>
+nnoremap ; :
+nnoremap : ;
 
 " FUNCTIONS "
 set diffexpr=MyDiff()
