@@ -52,3 +52,6 @@
 [submodule "vimfiles/bundle/tcomment_vim"]
 	path = vimfiles/bundle/tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim
+[submodule "vimfiles/bundle/vim-css-color"]
+	path = vimfiles/bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color/
