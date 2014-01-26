@@ -15,6 +15,7 @@ Plugins:
 * supertab
 * surround
 * syntastic
+* tcomment
 * tagbar
 * vim-fugitive
 * vim-sensible
