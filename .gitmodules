@@ -46,3 +46,6 @@
 [submodule "vimfiles/bundle/gundo.vim"]
 	path = vimfiles/bundle/gundo.vim
 	url = https://github.com/sjl/gundo.vim.git
+[submodule "vimfiles/bundle/vim-surround"]
+	path = vimfiles/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
