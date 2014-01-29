@@ -26,8 +26,8 @@
 	path = vimfiles/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule "vimfiles/bundle/vim-addon-mw-utils"]
-    path = vimfiles/bundle/vim-addon-mw-utils
-    url = https://github.com/marcweber/vim-addon-mw-utils.git
+	path = vimfiles/bundle/vim-addon-mw-utils
+	url = https://github.com/marcweber/vim-addon-mw-utils.git
 [submodule "vimfiles/bundle/vim-easymotion"]
 	path = vimfiles/bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
@@ -55,3 +55,6 @@
 [submodule "vimfiles/bundle/vim-css-color"]
 	path = vimfiles/bundle/vim-css-color
 	url = https://github.com/ap/vim-css-color/
+[submodule "vimfiles/bundle/molokai"]
+	path = vimfiles/bundle/molokai
+	url = https://github.com/tomasr/molokai.git
