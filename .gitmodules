@@ -43,9 +43,6 @@
 [submodule "vimfiles/bundle/vim-toolbar-icons-silk"]
 	path = vimfiles/bundle/vim-toolbar-icons-silk
 	url = https://github.com/istepura/vim-toolbar-icons-silk.git
-[submodule "vimfiles/bundle/gundo.vim"]
-	path = vimfiles/bundle/gundo.vim
-	url = https://github.com/sjl/gundo.vim.git
 [submodule "vimfiles/bundle/vim-surround"]
 	path = vimfiles/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
@@ -58,3 +55,6 @@
 [submodule "vimfiles/bundle/molokai"]
 	path = vimfiles/bundle/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "vimfiles/bundle/undotree"]
+	path = vimfiles/bundle/undotree
+	url = https://github.com/mbbill/undotree.git

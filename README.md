@@ -8,7 +8,6 @@ Plugins:
 * ctrlp
 * delimitMate
 * easymotion
-* gundo
 * nerdtree
 * pathogen
 * sparkup
@@ -17,6 +16,7 @@ Plugins:
 * syntastic
 * tcomment
 * tagbar
+* undotree
 * vim-fugitive
 * vim-sensible
 * vim-snipmate
