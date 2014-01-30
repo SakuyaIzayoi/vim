@@ -8,6 +8,7 @@ Plugins:
 * ctrlp
 * delimitMate
 * easymotion
+* minibufexpl
 * nerdtree
 * pathogen
 * sparkup

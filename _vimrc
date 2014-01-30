@@ -51,12 +51,20 @@ endfunc
 
 nnoremap <M-n> :call NumberToggle()<CR>
 nnoremap <F8> :TagbarToggle<CR>
+nnoremap <Leader>mbt :MBEToggle<CR>
+nnoremap <Leader>b :MBEFocus<CR>
+
+" Window Split Movement "
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 let mapleader=","
 
 inoremap jk <esc>
 nnoremap <leader><space> :nohlsearch<CR>
-nnoremap <leader> :UndotreeToggle<CR>
+nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap ; :
 nnoremap : ;
 
