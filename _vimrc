@@ -15,7 +15,7 @@ set expandtab
 set nu
 set cursorline
 set lazyredraw
-set backupdir=~/.vim/backup
+set backupdir=$HOME/.vim/backup
 
 set incsearch
 set hlsearch
@@ -25,13 +25,19 @@ let g:syntastic_c_check_header = 1
 let g:syntastic_c_no_include_search = 1
 let g:syntastic_c_no_default_include_dirs = 1
 let g:syntastic_c_auto_refresh_includes = 1
-let g:kolor_italic = 1
-let g:kolor_bold = 1
-let g:kolor_underlined = 0
-let g:kolor_alternative_matchparen = 0
+" let g:kolor_italic = 1
+" let g:kolor_bold = 1
+" let g:kolor_underlined = 0
+" let g:kolor_alternative_matchparen = 0
+let g:molokai_original = 1
 let g:NERDTreeDirArrows = 1
 let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
 let g:tagbar_usearrows = 1
+
+if has("persistent_undo")
+    set undodir=$HOME/.undodir/
+    set undofile
+endif
 
 " KEYBINDS "
 map <C-n> :NERDTreeToggle<CR>
@@ -50,7 +56,7 @@ let mapleader=","
 
 inoremap jk <esc>
 nnoremap <leader><space> :nohlsearch<CR>
-nnoremap <leader>u :GundoToggle<CR>
+nnoremap <leader> :UndotreeToggle<CR>
 nnoremap ; :
 nnoremap : ;
 
