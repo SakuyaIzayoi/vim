@@ -35,6 +35,7 @@ let g:tagbar_usearrows = 1
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_preview = 1
+au BufRead,BufNewFile *.des set syntax=levdes
 
 if has("persistent_undo")
     set undodir=$HOME/.undodir/
