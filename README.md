@@ -9,7 +9,6 @@ Plugins:
 * delimitMate
 * easymotion
 * minibufexpl
-* nerdtree
 * pathogen
 * sparkup
 * supertab
