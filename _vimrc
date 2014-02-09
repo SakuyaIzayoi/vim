@@ -30,7 +30,6 @@ let g:syntastic_c_auto_refresh_includes = 1
 " let g:kolor_underlined = 0
 " let g:kolor_alternative_matchparen = 0
 let g:molokai_original = 1
-let g:NERDTreeDirArrows = 1
 let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
 let g:tagbar_usearrows = 1
 
