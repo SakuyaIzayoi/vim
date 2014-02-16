@@ -43,7 +43,6 @@ if has("persistent_undo")
 endif
 
 " KEYBINDS "
-map <C-n> :NERDTreeToggle<CR>
 function! NumberToggle()
     if(&relativenumber == 1)
         set norelativenumber
