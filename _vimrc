@@ -5,6 +5,7 @@ set enc=utf-8
 execute pathogen#infect()
 
 " BASIC SETTINGS"
+color molokai
 syntax on
 filetype plugin indent on
 set smartindent
@@ -15,7 +16,6 @@ set expandtab
 set nu
 set cursorline
 set lazyredraw
-set backupdir=$HOME/.vim/backup
 
 set incsearch
 set hlsearch
