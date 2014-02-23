@@ -37,10 +37,8 @@ let g:netrw_browse_split = 4
 let g:netrw_preview = 1
 au BufRead,BufNewFile *.des set syntax=levdes
 
-if has("persistent_undo")
-    set undodir=$HOME/.undodir/
-    set undofile
-endif
+set undodir=$HOME/.undodir/
+set undofile
 
 " KEYBINDS "
 function! NumberToggle()
@@ -65,7 +63,7 @@ nnoremap <C-H> <C-W><C-H>
 let mapleader=","
 
 inoremap jk <esc>
-nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader><space> :nohl<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap ; :
 nnoremap : ;
