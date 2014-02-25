@@ -33,7 +33,7 @@ let g:netrw_browse_split = 4
 let g:netrw_preview = 1
 au BufRead,BufNewFile *.des set syntax=levdes
 if has('win32')
-    g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
+    let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
 endif
 set undodir=$HOME/.undodir/
 set undofile

@@ -1,3 +1,3 @@
 " PRETTYIFY VIM "
-color molokai
-set guifont=Consolas:h16
+color solarized
+set guifont=Meslo\ LG\ S:h16
