@@ -5,7 +5,8 @@ set enc=utf-8
 execute pathogen#infect()
 
 " BASIC SETTINGS"
-color molokai
+color solarized
+set background=light
 syntax on
 filetype plugin indent on
 set smartindent
@@ -67,6 +68,7 @@ nnoremap <leader><space> :nohl<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap ; :
 nnoremap : ;
+call togglebg#map("<Leader>s")
 
 " FUNCTIONS "
 set diffexpr=MyDiff()
