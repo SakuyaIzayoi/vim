@@ -49,8 +49,8 @@ endfunc
 
 
 " KEYBINDS "
-nnoremap <M-n> :call NumberToggle()<CR>
-nnoremap <F8> :TagbarToggle<CR>
+nnoremap <silent> <M-n> :call NumberToggle()<CR>
+nnoremap <silent> <F8> :TagbarToggle<CR>
 nnoremap <Leader>mbt :MBEToggle<CR>
 nnoremap <Leader>b :MBEFocus<CR>
 
