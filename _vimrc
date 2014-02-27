@@ -67,6 +67,8 @@ nnoremap <leader><space> :nohl<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap ; :
 nnoremap : ;
+nnoremap j gj
+nnoremap k gk
 call togglebg#map("<Leader>s")
 
 " AUTO-RUN COMMANDS "
