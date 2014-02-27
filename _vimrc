@@ -9,6 +9,7 @@ color solarized
 set background=light
 syntax on
 filetype plugin indent on
+set guioptions=
 set smartindent
 set tabstop=4
 set softtabstop=4
