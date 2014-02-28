@@ -10,15 +10,20 @@ set background=light
 syntax on
 filetype plugin indent on
 set guioptions=
-set smartindent
+
+" FORMATTING SETTINGS "
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set nu
+
+" VISIBILITY SETTINGS "
+set number
 set cursorline
 set lazyredraw
+set smartindent
 
+" SEARCH SETTINGS "
 set ignorecase
 set smartcase
 set incsearch
@@ -51,22 +56,13 @@ function! NumberToggle()
     endif
 endfunc
 
-
 " KEYBINDS "
+let mapleader=","
+inoremap jk <esc>
 nnoremap <silent> <M-n> :call NumberToggle()<CR>
 nnoremap <silent> <F8> :TagbarToggle<CR>
 nnoremap <Leader>mbt :MBEToggle<CR>
 nnoremap <Leader>b :MBEFocus<CR>
-
-" Window Split Movement "
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
-let mapleader=","
-
-inoremap jk <esc>
 nnoremap <silent> <leader><space> :nohl<CR>
 nnoremap <silent> <leader>u :UndotreeToggle<CR>
 nnoremap ; :
@@ -74,6 +70,12 @@ nnoremap : ;
 nnoremap j gj
 nnoremap k gk
 call togglebg#map("<Leader>s")
+
+" Window Split Movement "
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " AUTO-RUN COMMANDS "
 if has("autocmd")
