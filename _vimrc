@@ -19,6 +19,8 @@ set nu
 set cursorline
 set lazyredraw
 
+set ignorecase
+set smartcase
 set incsearch
 set hlsearch
 
@@ -65,8 +67,8 @@ nnoremap <C-H> <C-W><C-H>
 let mapleader=","
 
 inoremap jk <esc>
-nnoremap <leader><space> :nohl<CR>
-nnoremap <leader>u :UndotreeToggle<CR>
+nnoremap <silent> <leader><space> :nohl<CR>
+nnoremap <silent> <leader>u :UndotreeToggle<CR>
 nnoremap ; :
 nnoremap : ;
 nnoremap j gj
