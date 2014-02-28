@@ -14,9 +14,10 @@ Plugins:
 * supertab
 * surround
 * syntastic
-* tcomment
 * tagbar
+* tcomment
 * undotree
+* vim-airline
 * vim-fugitive
 * vim-sensible
 * vim-snipmate
