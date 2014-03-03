@@ -10,6 +10,8 @@ set background=light
 syntax on
 filetype plugin indent on
 set guioptions=
+set undodir=$HOME/.undodir/
+set undofile
 
 " FORMATTING SETTINGS "
 set tabstop=4
@@ -40,12 +42,22 @@ let g:tagbar_usearrows = 1
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_preview = 1
-au BufRead,BufNewFile *.des set syntax=levdes
+
 if has('win32')
     let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
 endif
-set undodir=$HOME/.undodir/
-set undofile
+
+let g:tagbar_type_css = {
+\ 'ctagstype' : 'Css',
+    \ 'kinds'     : [
+        \ 'c:classes',
+        \ 's:selectors',
+        \ 'i:identities'
+    \ ]
+\ }
+
+" FILETYPES "
+au BufRead,BufNewFile *.des set syntax=levdes
 
 " FUNCTIONS "
 function! NumberToggle()
