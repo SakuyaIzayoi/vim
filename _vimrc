@@ -97,3 +97,8 @@ if has("autocmd")
         autocmd bufwritepost _vimrc source $MYVIMRC
     endif
 endif
+
+augroup vimrc
+  au BufReadPre * setlocal foldmethod=syntax
+  au BufWinEnter * if &fdm == 'syntax' | setlocal foldmethod=manual | endif
+augroup END

@@ -1,3 +1,3 @@
 " PRETTYIFY VIM "
 color solarized
-set guifont=Meslo\ LG\ S\ for\ Powerline:h15
+set guifont=Meslo\ LG\ S\ for\ Powerline:h13
