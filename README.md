@@ -19,6 +19,7 @@ Plugins:
 * undotree
 * vim-airline
 * vim-fugitive
+* vim-move
 * vim-sensible
 * vim-snipmate
 * vim-snippets
