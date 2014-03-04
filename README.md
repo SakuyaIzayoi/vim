@@ -10,7 +10,6 @@ Plugins:
 * easymotion
 * minibufexpl
 * pathogen
-* sparkup
 * supertab
 * surround
 * syntastic
@@ -23,4 +22,5 @@ Plugins:
 * vim-sensible
 * vim-snipmate
 * vim-snippets
+* vim-sparkup
 * vim-toolbar-icons-silk

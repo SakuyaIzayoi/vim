@@ -4,9 +4,6 @@
 [submodule "vimfiles/bundle/delimitMate"]
 	path = vimfiles/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "vimfiles/bundle/sparkup"]
-	path = vimfiles/bundle/sparkup
-	url = https://github.com/rstacruz/sparkup.git
 [submodule "vimfiles/bundle/supertab"]
 	path = vimfiles/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
@@ -67,3 +64,6 @@
 [submodule "vimfiles/bundle/vim-move"]
 	path = vimfiles/bundle/vim-move
 	url = https://github.com/matze/vim-move.git
+[submodule "vimfiles/bundle/vim-sparkup"]
+	path = vimfiles/bundle/vim-sparkup
+	url = https://github.com/tristen/vim-sparkup
