@@ -141,12 +141,12 @@ silent! normal! zE
 59,61fold
 62,70fold
 71,91fold
-92,104fold
+92,105fold
 22
 normal! zo
 22
 normal! zo
-let s:l = 92 - ((91 * winheight(0) + 22) / 44)
+let s:l = 92 - ((85 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
