@@ -58,6 +58,7 @@ let g:tagbar_type_css = {
 
 " FILETYPES "
 au BufRead,BufNewFile *.des set syntax=levdes
+au BufRead,BufNewFile *.md set syntax=markdown
 
 " FUNCTIONS "
 function! NumberToggle()
