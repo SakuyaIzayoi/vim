@@ -20,6 +20,7 @@ Plugins:
 * vim-fugitive
 * vim-move
 * vim-sensible
+* vim-sneak
 * vim-snipmate
 * vim-snippets
 * vim-sparkup
