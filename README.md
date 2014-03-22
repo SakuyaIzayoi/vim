@@ -17,6 +17,7 @@ Plugins:
 * tcomment
 * undotree
 * vim-airline
+* vim-dispatch
 * vim-fugitive
 * vim-move
 * vim-sensible

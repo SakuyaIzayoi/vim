@@ -67,3 +67,6 @@
 [submodule "vimfiles/bundle/vim-sparkup"]
 	path = vimfiles/bundle/vim-sparkup
 	url = https://github.com/tristen/vim-sparkup
+[submodule "vimfiles/bundle/vim-dispatch"]
+	path = vimfiles/bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
