@@ -9,6 +9,7 @@ color solarized
 set background=light
 syntax on
 filetype plugin indent on
+set directory=.,$TEMP
 set guioptions=
 set undodir=$HOME/.undodir/
 set undofile
@@ -42,6 +43,7 @@ let g:tagbar_usearrows = 1
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_preview = 1
+let g:sneak#streak = 1
 
 if has('win32')
     let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
