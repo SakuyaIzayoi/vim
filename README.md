@@ -19,6 +19,7 @@ Plugins:
 * vim-airline
 * vim-dispatch
 * vim-fugitive
+* vim-gitgutter
 * vim-move
 * vim-sensible
 * vim-sneak

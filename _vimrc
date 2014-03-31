@@ -83,6 +83,7 @@ nnoremap <silent> <leader><space> :nohl<CR>
 nnoremap <silent> <leader>u :UndotreeToggle<CR>
 nnoremap <silent> <leader>m :Make!<CR>
 nnoremap <silent> <leader>M :Make<CR>
+nnoremap <silent> <leader>g :GitGutterToggle<CR>
 nnoremap ; :
 nnoremap : ;
 nnoremap j gj
