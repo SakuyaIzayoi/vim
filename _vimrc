@@ -44,6 +44,7 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_preview = 1
 let g:sneak#streak = 1
+let g:sneak#use_ic_scs = 1
 
 if has('win32')
     let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
