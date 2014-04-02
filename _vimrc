@@ -13,6 +13,7 @@ set directory=.,$TEMP
 set guioptions=
 set undodir=$HOME/.undodir/
 set undofile
+set backspace=indent,eol,start
 
 " FORMATTING SETTINGS "
 set tabstop=4
@@ -34,6 +35,8 @@ set hlsearch
 
 " PLUGIN SETTINGS "
 let g:airline_powerline_fonts = 1
+let g:delimitMate_expand_cr = 1
+let g:delimitMate_expand_space = 1
 let g:syntastic_c_check_header = 1
 let g:syntastic_c_no_include_search = 1
 let g:syntastic_c_no_default_include_dirs = 1
