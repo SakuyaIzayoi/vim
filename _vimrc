@@ -14,6 +14,7 @@ set guioptions=
 set undodir=$HOME/.undodir/
 set undofile
 set backspace=indent,eol,start
+set noswapfile
 
 " FORMATTING SETTINGS "
 set tabstop=4
