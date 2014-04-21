@@ -27,3 +27,4 @@ Plugins:
 * vim-snippets
 * vim-sparkup
 * vim-toolbar-icons-silk
+* vim-vinegar
