@@ -76,3 +76,6 @@
 [submodule "vimfiles/bundle/vim-vinegar"]
 	path = vimfiles/bundle/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
+[submodule "vimfiles/bundle/vim-rails"]
+	path = vimfiles/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails
