@@ -21,7 +21,6 @@ Plugins:
 * vim-fugitive
 * vim-gitgutter
 * vim-move
-* vim-rails
 * vim-sensible
 * vim-sneak
 * vim-snipmate
