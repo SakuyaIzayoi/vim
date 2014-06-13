@@ -66,6 +66,8 @@ let g:tagbar_type_css = {
 " FILETYPES "
 au BufRead,BufNewFile *.des set syntax=levdes
 au BufRead,BufNewFile *.md set syntax=markdown
+autocmd FileType ruby set tabstop=8|set shiftwidth=2|set expandtab
+autocmd FileType eruby set tabstop=8|set shiftwidth=2|set expandtab
 
 " FUNCTIONS "
 function! NumberToggle()
