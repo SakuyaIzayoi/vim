@@ -15,6 +15,7 @@ Plugins:
 * syntastic
 * tagbar
 * tcomment
+* ultisnips
 * undotree
 * vim-airline
 * vim-dispatch
@@ -22,9 +23,9 @@ Plugins:
 * vim-gitgutter
 * vim-move
 * vim-rails
+* vim-ruby
 * vim-sensible
 * vim-sneak
-* vim-snipmate
 * vim-snippets
 * vim-sparkup
 * vim-toolbar-icons-silk
