@@ -82,3 +82,12 @@
 [submodule "vimfiles/bundle/ultisnips"]
 	path = vimfiles/bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips
+[submodule "vimfiles/bundle/vim-unimpaired"]
+	path = vimfiles/bundle/vim-unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "vimfiles/bundle/vim-repeat"]
+	path = vimfiles/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vimfiles/bundle/tabular"]
+	path = vimfiles/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git

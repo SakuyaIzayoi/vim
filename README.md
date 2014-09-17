@@ -13,6 +13,7 @@ Plugins:
 * supertab
 * surround
 * syntastic
+* tabular
 * tagbar
 * tcomment
 * ultisnips
@@ -23,10 +24,12 @@ Plugins:
 * vim-gitgutter
 * vim-move
 * vim-rails
+* vim-repeat
 * vim-ruby
 * vim-sensible
 * vim-sneak
 * vim-snippets
 * vim-sparkup
 * vim-toolbar-icons-silk
+* vim-unimpaired
 * vim-vinegar
