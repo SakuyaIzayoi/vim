@@ -6,7 +6,7 @@ execute pathogen#infect()
 
 " BASIC SETTINGS"
 color solarized
-set background=light
+set background=dark
 syntax on
 filetype plugin indent on
 set directory=.,$TEMP
@@ -49,9 +49,10 @@ let g:netrw_browse_split = 4
 let g:netrw_preview = 1
 let g:sneak#streak = 1
 let g:sneak#use_ic_scs = 1
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:incsearch#auto_nohlsearch = 1
 
 if has('win32')
     let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
@@ -98,6 +99,17 @@ nnoremap : ;
 nnoremap j gj
 nnoremap k gk
 call togglebg#map("<Leader>s")
+
+" Incsearch "
+map / <Plug>(incsearch-forward)
+map ? <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+map n <Plug>(incsearch-nohl-n)
+map N <Plug>(incsearch-nohl-N)
+map * <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
 
 " Window Split Movement "
 nnoremap <C-J> <C-W><C-J>

@@ -8,6 +8,7 @@ Plugins:
 * ctrlp
 * delimitMate
 * easymotion
+* incsearch
 * minibufexpl
 * pathogen
 * supertab
