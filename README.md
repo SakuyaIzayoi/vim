@@ -23,6 +23,7 @@ Plugins:
 * vim-dispatch
 * vim-fugitive
 * vim-gitgutter
+* vim-indent-guides
 * vim-move
 * vim-rails
 * vim-repeat
