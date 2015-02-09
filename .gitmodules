@@ -16,9 +16,6 @@
 [submodule "vimfiles/bundle/tlib_vim"]
 	path = vimfiles/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
-[submodule "vimfiles/bundle/vim-easymotion"]
-	path = vimfiles/bundle/vim-easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
 [submodule "vimfiles/bundle/vim-fugitive"]
 	path = vimfiles/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -97,3 +94,18 @@
 [submodule "vimfiles/bundle/vim-indent-guides"]
 	path = vimfiles/bundle/vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vimfiles/bundle/vim-orgmode"]
+	path = vimfiles/bundle/vim-orgmode
+	url = https://github.com/jceb/vim-orgmode
+[submodule "vimfiles/bundle/utl.vim"]
+	path = vimfiles/bundle/utl.vim
+	url = https://github.com/vim-scripts/utl.vim
+[submodule "vimfiles/bundle/vim-speeddating"]
+	path = vimfiles/bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating
+[submodule "vimfiles/bundle/calendar-vim"]
+	path = vimfiles/bundle/calendar-vim
+	url = git://github.com/mattn/calendar-vim
+[submodule "vimfiles/bundle/SyntaxRange"]
+	path = vimfiles/bundle/SyntaxRange
+	url = https://github.com/vim-scripts/SyntaxRange

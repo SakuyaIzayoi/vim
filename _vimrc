@@ -38,6 +38,7 @@ set hlsearch
 let g:airline_powerline_fonts = 1
 let g:delimitMate_expand_cr = 1
 let g:delimitMate_expand_space = 1
+let g:delimitMate_smart_quotes = 1
 let g:syntastic_c_check_header = 1
 let g:syntastic_c_no_include_search = 1
 let g:syntastic_c_no_default_include_dirs = 1
@@ -53,6 +54,9 @@ let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 let g:incsearch#auto_nohlsearch = 1
+let g:org_agenda_files = ['C:\org\*.org']
+let g:org_indent = 0
+let g:org_todo_keywords = [['TODO', 'WAITING', '|', 'DONE']]
 
 if has('win32')
     let g:tagbar_ctags_bin = 'C:\bin\ctags58\ctags.exe'
@@ -84,6 +88,7 @@ endfunc
 
 " KEYBINDS "
 let mapleader=","
+let maplocalleader=","
 inoremap jk <esc>
 nnoremap <silent> <M-n> :call NumberToggle()<CR>
 nnoremap <silent> <F8> :TagbarToggle<CR>
